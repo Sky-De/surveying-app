@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "GEO2UTM | skyde",
+  title: "geo2utm | skyde",
   description: "app for converting geo coordinates to UTM coordinates, easily with uploading a file and downloading the converted file",
 };
 

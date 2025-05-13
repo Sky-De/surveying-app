@@ -3,8 +3,8 @@ import React, { useState } from 'react';
 
 export default function ConvertGeoFile() {
   const [geoInput, setGeoInput] = useState<GeoInput[] | null>(null);
-  const [fileName, setFileName] = useState('utm_output.txt');
-
+  const fileName = 'utm_output.txt';
+  
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
     if (!file) return;
