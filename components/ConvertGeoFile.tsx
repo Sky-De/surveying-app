@@ -63,7 +63,7 @@ export default function ConvertGeoFile() {
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto border rounded shadow space-y-4 mt-10">
+    <div className="p-4 max-w-xl mx-auto border rounded shadow space-y-4">
       <h2 className="text-lg font-bold">Geo to UTM File Converter</h2>
 <label htmlFor="fileInput">
   Upload a .txt file with the following format:
